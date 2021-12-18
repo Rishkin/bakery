@@ -7,7 +7,8 @@
         "../sass/base/_variables.scss",
         "../sass/base/_mixins.scss",
         "../sass/blocks/_nav.scss",
-        "../sass/blocks/_banner.scss"
+        "../sass/blocks/_banner.scss",
+        "../sass/blocks/_latest.scss"
     ],
     "names": [],
     "file": "style.min.css"
