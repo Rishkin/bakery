@@ -1,0 +1,94 @@
+.title {
+    padding-top: 80px;
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: var(--dark-font);
+    span {
+        padding-left: 7px;
+        color: var(--main-color);
+    }
+}
+.latest {
+    &__wrapper {
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        &-item {
+            padding: 10px;
+            .image {
+                width: 270px;
+                height: 160px;
+                border-radius: 20px 20px 0px 0px;  
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .wrap-bg {
+                width: 270px;
+                min-height: 172px;  
+                background: #F7F5F0;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+                border-radius: 0px 0px 20px 20px;
+                .name {
+                    padding: 20px 8px 0 8px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 500;
+                    font-size: 18px;                    
+                    text-align: center;
+                    color: var(--dark-font);
+                }
+                .price {
+                    display: flex;
+                    justify-content: center;
+                    &__actual {
+                        padding-top: 15px;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 600;
+                        font-size: 24px;
+                        color: var(--main-color);
+                    }
+                    &__old {
+                        padding: 15px 0 0 10px;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 18px;
+                        line-height: 27px;
+                        text-decoration-line: line-through;
+                        color: #656565;
+                    }
+                }
+                .btn {
+                    display: flex;
+                    justify-content: center;
+                    .button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 20px;
+                        width: 230px;
+                        height: 40px;
+                        background: var(--main-color);
+                        border-radius: 5px;
+                        text-decoration: none;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 18px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        color: var(--white);
+                        transition: background 0.3s; 
+                    }
+                    .button:hover {
+                        background: var(--main-hover-color);
+                    }
+                }
+            }
+        }
+    }
+}
