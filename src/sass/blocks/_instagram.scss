@@ -1,0 +1,16 @@
+.instagram {
+    span {
+        padding-right: 7px;
+        font-family: 'Cormorant', serif;
+        font-weight: bold;
+        font-size: 40px;
+        text-decoration-line: underline;       
+        a {
+            color: var(--main-color);
+            transition: all 0.3s;
+        }
+        a:hover {
+            color: var(--main-hover-color);
+        }
+    }
+}
