@@ -113,7 +113,6 @@
             align-items: center;
             .circle {
                 width: 60px;
-                height: 60px;
                 margin-left: 10px;
                 border: 1px solid #BFBFBF;
                 border-radius: 100%;
@@ -121,6 +120,8 @@
                 img {
                     display: block;
                     margin: 15px auto;
+                    width: 24px;
+                    height: 24px;
                 }
             }
             .circle:hover {

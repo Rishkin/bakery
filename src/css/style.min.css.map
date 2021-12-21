@@ -11,7 +11,8 @@
         "../sass/blocks/_latest.scss",
         "../sass/blocks/_premium.scss",
         "../sass/blocks/_food.scss",
-        "../sass/blocks/_partner.scss"
+        "../sass/blocks/_partner.scss",
+        "../sass/blocks/_surprise.scss"
     ],
     "names": [],
     "file": "style.min.css"
