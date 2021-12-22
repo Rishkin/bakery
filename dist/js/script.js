@@ -1,5 +1,6 @@
-$('.main-carousel').flickity({
+$('.carousel').flickity({
     // options
-    cellAlign: 'left',
+    cellAlign: 'center',
     contain: true,
+    pageDots: false,
   });
