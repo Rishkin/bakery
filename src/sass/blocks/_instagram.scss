@@ -19,14 +19,14 @@
     
     .carousel {
         &__item {
-            width: 186px;
-            height: 186px;
-            margin: 10px ;
+            width: 180px;
+            height: 180px;
+            margin: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
             background: #FFFFFF;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
             &-cell {
                 width: 156px;
                 height: 156px;
@@ -50,4 +50,10 @@
 
 .flickity-button:disabled {
     border: 1px solid #B2B2B2;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+    width: 85%;
+    margin-left: 90px;
+
 }
